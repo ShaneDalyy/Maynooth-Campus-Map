@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Events</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #004080;
+      margin-bottom: 20px;
+    }
+
+    .event {
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+    }
+
+    .event h2 {
+      color: #007bff;
+      margin-bottom: 5px;
+    }
+
+    .event p {
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .event .date {
+      color: #28a745;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .event .location {
+      color: #ff4500;
+    }
+
+    /* Add hover effect for events */
+    .event:hover {
+      background-color: #f9f9f9;
+    }
+
+    /* Add some spacing between events */
+    .event + .event {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Upcoming Events</h1>
+
+    <div class="event">
+      <h2>Event 1: Exciting Gathering</h2>
+      <p>Brief description of the first event. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="date">Date: January 10, 2024</p>
+      <p class="location">Location: Community Center</p>
+    </div>
+
+    <div class="event">
+      <h2>Event 2: Fun-filled Day</h2>
+      <p>Brief description of the second event. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="date">Date: February 20, 2024</p>
+      <p class="location">Location: Park Pavilion</p>
+    </div>
+
+    <!-- Add more events as needed -->
+
+  </div>
+
+</body>
+</html>

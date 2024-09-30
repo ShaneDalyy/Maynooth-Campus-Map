@@ -1,0 +1,60 @@
+html
+{
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right,#8EC3B0,#9ED5C5,#BCEAD5,#DEF5E5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: default;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .warning {
+    color: red;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /*text shadow*/
+    display: none; /* Initially hidden */
+  }
+  .form-group
+   {
+    color: rgb(255, 139, 139);
+    font-size: 25px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /*text shadow*/
+    display: block;
+    margin-bottom: 100px; /* Adjust the spacing between input groups as needed */
+  }
+  .submit-button {
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: 2px solid #000000; /* Border outline */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 30px;
+  }
+
+  /* Hover effect for the submit button */
+  .submit-button:hover {
+    background-color: #45a049; /* Darker background on hover */
+
+  }
+
+
+
+
+.animated-heading 
+{
+    opacity: 0; /* Initially, make it transparent */
+    transform: translateY(20px); /* Move it down to create a slide-in effect */
+    transition: opacity 1s, transform 1s; /* Add transitions for opacity and transform properties */
+  }
+  
+  .animated-heading.animated 
+  {
+    color: yellow;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 black, 2px -1px 0 black, -1px 2px 0 black, 2px 2px 0 black; /*text shadow*/
+    opacity: 1; /* Make it fully visible */
+    transform: translateY(0); /* Reset the transform to its original position */
+  }

@@ -1,0 +1,92 @@
+.e-body {
+  font-family: 'Arial', sans-serif;
+  background: #363636;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.e-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: linear-gradient(45deg, #2b5876, #4e4376);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.e-container h1 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.e-container h2 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffd700;
+}
+
+.e-container p {
+  line-height: 1.6;
+  color: #eee;
+}
+
+.e-container .event {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.e-container .event:hover {
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.e-container .event-content {
+  padding: 20px;
+}
+
+.e-container .date {
+  color: #28a745;
+}
+
+.e-container .location {
+  color: #6c757d;
+}
+
+.event-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.event-box:hover {
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.event-box-content {
+  padding: 20px;
+}
+
+/* Style links to look like actual links */
+a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .e-container {
+    padding: 20px;
+  }
+}

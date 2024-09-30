@@ -1,0 +1,113 @@
+.W_container {
+    width: 607px;
+    height: 829px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+
+.W_top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+
+.W_top-bar input {
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.W_search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* Add these styles to your CSS file */
+.W_turn-back-button {
+    background-color: #3b2f80; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove button border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 18px; /* Text size */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+  
+.W_turn-back-button:hover {
+    background-color: #130754; /* Change background color on hover */
+}
+
+/* Add these styles to your CSS file */
+.W_button-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Add some spacing between buttons */
+}
+
+
+.W_weather-image {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+
+.W_weather-temp {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.W_weather-location {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.W_data-container {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.W_element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.w_data {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.W_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.W_icon {
+    margin-top: 10px;
+}
